@@ -1,0 +1,9 @@
+textarea.form-control {
+  margin:0px 0px;
+  padding:5px;
+  min-height:200px;
+  line-height:16px;
+  width:96%;
+  display:block;
+  margin:0px auto; 
+}

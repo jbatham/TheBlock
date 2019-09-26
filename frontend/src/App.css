@@ -1,0 +1,47 @@
+
+
+nav.navbar, .navbar-default {
+  background-color: #005480 !important;
+}
+
+.navbar-default {
+  background-color: #005480 !important;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: white;
+    color: #5E5E5E;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 500;
+}
+
+.panel > .panel-body {
+    font-family: 'Quicksand',sans-serif;
+    font-size: 14px;
+}
+
+.btn-default {
+  font-family: 'Quicksand',sans-serif;
+}
+
+h1 {
+    font-size: 1.55em;
+    margin: 0 0 24px;
+    line-height: 1.385;
+    color: #003D5D;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+
+
+

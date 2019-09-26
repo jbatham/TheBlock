@@ -1,0 +1,87 @@
+.myNav {
+    background-color: gray;
+}
+
+/* New way of prioritization */
+#bootstrap-overrides .navbar-default { /* 100+1=101 priority score, yay! */
+background-color: #005480
+}
+
+nav.navbar, .navbar-default {
+  background-color: #005480 !important;
+}
+
+.navbar-default {
+  background-color: #005480 !important;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+/* center the navbar*/
+.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+.center .navbar-inner {
+    text-align:center;
+}
+
+.center .dropdown-menu {
+    text-align: left;
+}
+
+.navbar-nav {
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: "Quicksand",sans-serif;
+    font-size:16px;
+}
+
+.navbar-custom {
+background-color: #005480 !important;
+}
+
+
