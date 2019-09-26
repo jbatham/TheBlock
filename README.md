@@ -9,7 +9,7 @@ There are a few downloads required to run this project.
 
 ### NPM
 
-The project uses NPM as the package manager making it easy to install the dependencies through a terminal.
+The project uses NPM as a package manager which manages dependencies and allows us to install needed programs.
 
 The download link for the installer is [Here](https://www.npmjs.com/get-npm)
 
